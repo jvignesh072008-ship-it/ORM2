@@ -35,7 +35,7 @@ class CarAdmin(admin.ModelAdmin):
 
 admin.py
 from django.contrib import admin
-from.models import Car,CarAdmin
+from models import Car,CarAdmin
 admin.site.register(Car,CarAdmin)
 ```
 
