@@ -22,7 +22,7 @@ Execute Django admin and create details for 5 Car
 ```
 models.py
 from django.db import models
-from django.contrib import adming
+from django.contrib import admin
 class Car(models.Model):
     car_name= models.CharField()
     car_model = models.CharField()
